@@ -2,7 +2,6 @@
 body {
   /* background-color: #e6e6e6; */
   /* background-color: #b3b3b3; */
-  /* background-color: #C29E97; */
   /* background-color: #d9c3bf; */
   /* background-color: #ebe2e0; */
 
@@ -16,6 +15,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 12px;
+  background-color: #e6e6e6;
+  box-shadow: 0 0 35px 25px #e2d2cf inset;
+  /* background-color: #d9c3bf; */
+  /* background-color: #ebe2e0; */
 }
 
 .nav {
@@ -39,4 +42,42 @@ body {
   position: relative;
   top: 100px;
   left:  432px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
+
+.artist {
+  font-family: 'Staatliches', cursive;
+  font-size: 400%;
+  position: relative;
+  bottom: 472px;
+  left: 266px;
+  text-shadow: 3px 3px white;
+  
+}
+
+.developer {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 392%;
+  position: relative;
+  bottom: 542px;
+  left: 844px;
+  text-shadow: 2px 2px limegreen;
+}
+
+.brushstroke {
+  width: 50px;
+  height: 200px;
+  position: relative;
+  left: 564px;
+  bottom: 500px;
+  transform: skew(-4deg, -17deg) rotate(65deg);
+}
+
+/* .brushstroke-right {
+  width: 50px;
+  height: 200px;
+  position: relative;
+  left: 600px;
+  bottom: 500px;
+  transform: skew(-4deg, -17deg) scale(-1, 1);
+} */
