@@ -90,4 +90,18 @@ body {
 .projects {
   text-align: center;
   background-color: #e6e6e6;
+  padding: 100px;
+  position: relative;
+  bottom: 200px;
+}
+
+.about {
+  background-color: #e6e6e6;
+  padding: 100px;
+}
+
+.view-all {
+  background-color: grey;
+  display: flex;
+  align-items: center;
 }
