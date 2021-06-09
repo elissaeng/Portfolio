@@ -1,3 +1,6 @@
+a:-webkit-any-link {
+  text-decoration: none;
+}
 
 body {
   /* background-color: #e6e6e6; */
@@ -73,11 +76,11 @@ body {
   transform: skew(-4deg, -17deg) rotate(65deg);
 }
 
-/* .brushstroke-right {
+.brushstroke-code {
   width: 50px;
   height: 200px;
   position: relative;
-  left: 600px;
+  left: 955px;
   bottom: 500px;
-  transform: skew(-4deg, -17deg) scale(-1, 1);
-} */
+  transform: skew(-4deg, -17deg) rotate(65deg);
+}
