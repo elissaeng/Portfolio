@@ -4,16 +4,19 @@ a:-webkit-any-link {
 }
 
 body {
-  /* background-color: #e6e6e6; */
-  /* background-color: #b3b3b3; */
-  /* background-color: #d9c3bf; */
-  /* background-color: #ebe2e0; */
+    /* background-color: #e6e6e6; */
+    /* background-color: #b3b3b3; */
+    /* background-color: #d9c3bf; */
+    /* background-color: #ebe2e0; */
 
-  background-color: #e2d2cf;
-  /* background-color: #D4C3B9; */
+    background-color: #e2d2cf;
+    /* background-color: #D4C3B9; */
 
-  /* background-color: #D8C0B8; */
-}
+    /* background-color: #D8C0B8; */
+   
+  }  
+
+
 
 .header {
   display: flex;
@@ -41,6 +44,7 @@ body {
   color: black;
 }
 
+/* @media only screen and (max-width: 12450px) {
 #painting {
   width: 550px;
   height: 550px;
@@ -48,7 +52,27 @@ body {
   top: 100px;
   left:  432px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* grid-template-columns: 1fr 4fr;
+  grid-template-rows: 50px auto 30px;
+  grid-template-areas: 
+    "hdr hdr"
+    "side content"
+    "ftr ftr";
 }
+} */ 
+
+/* @media only screen and (min-width: 1024px) { */
+  #painting {
+    width: 550px;
+    height: 550px;
+    position: relative;
+    top: 100px;
+    left:  432px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ 
+  }
+/* } */
+  
 
 .artist {
   font-family: 'Staatliches', cursive;
