@@ -28,6 +28,7 @@ body {
   /* background-color: #ebe2e0; */
 }
 
+
 .nav {
   display: flex;
   align-items: center;
@@ -67,11 +68,19 @@ body {
     height: 550px;
     position: relative;
     top: 100px;
-    left:  432px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
- 
-  }
-/* } */
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  } 
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   
 
 .artist {
@@ -79,7 +88,7 @@ body {
   font-size: 400%;
   position: relative;
   bottom: 472px;
-  left: 266px;
+  /* left: 266px; */
   text-shadow: 3px 3px white;
   
 }
@@ -89,7 +98,7 @@ body {
   font-size: 392%;
   position: relative;
   bottom: 542px;
-  left: 844px;
+  left: 300px;
   text-shadow: 2px 2px limegreen;
 }
 
@@ -97,7 +106,7 @@ body {
   width: 50px;
   height: 200px;
   position: relative;
-  left: 363px;
+  /* left: 363px; */
   bottom: 500px;
   transform: skew(-4deg, -17deg) rotate(65deg);
 }
@@ -106,7 +115,7 @@ body {
   width: 50px;
   height: 200px;
   position: relative;
-  left: 955px;
+  /* left: 955px; */
   bottom: 500px;
   transform: skew(-4deg, -17deg) rotate(65deg);
 }
