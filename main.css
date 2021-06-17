@@ -88,7 +88,7 @@ body {
   font-size: 400%;
   position: relative;
   bottom: 472px;
-  /* left: 266px; */
+  left: -161px;
   text-shadow: 3px 3px white;
   
 }
@@ -98,7 +98,7 @@ body {
   font-size: 392%;
   position: relative;
   bottom: 542px;
-  left: 300px;
+  left: 400px;
   text-shadow: 2px 2px limegreen;
 }
 
@@ -106,8 +106,8 @@ body {
   width: 50px;
   height: 200px;
   position: relative;
-  /* left: 363px; */
-  bottom: 500px;
+  left: -66px;
+  bottom: 483px;
   transform: skew(-4deg, -17deg) rotate(65deg);
 }
 
@@ -115,7 +115,7 @@ body {
   width: 50px;
   height: 200px;
   position: relative;
-  /* left: 955px; */
+  left: 611px;
   bottom: 500px;
   transform: skew(-4deg, -17deg) rotate(65deg);
 }
