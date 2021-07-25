@@ -125,7 +125,7 @@ body {
 .projects {
   text-align: center;
   background-color: #e6e6e6;
-  padding: 100px;
+  padding: 466px;
   position: relative;
   bottom: 200px;
 }
@@ -139,4 +139,40 @@ body {
   background-color: grey;
   display: flex;
   align-items: center;
+}
+
+.test {
+  background-color: rgb(134, 143, 140);
+  width: 333px;
+  height: 320px;
+  position: absolute;
+  top: 110px;
+  left: 221px;
+}
+
+.test2 {
+  background-color: rgb(134, 143, 140);
+  width: 333px;
+  height: 320px;
+  position: absolute;
+  top: 110px;
+  right: 205px;
+}
+
+.test3 {
+  background-color: rgb(134, 143, 140);
+  width: 333px;
+  height: 320px;
+  position: absolute;
+  top: 500px;
+  left: 221px;
+}
+
+.test4 {
+  background-color: rgb(134, 143, 140);
+  width: 333px;
+  height: 320px;
+  position: absolute;
+  top: 500px;
+  right: 205px;
 }
