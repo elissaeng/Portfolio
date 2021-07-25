@@ -4,16 +4,18 @@ a:-webkit-any-link {
 }
 
 body {
-    /* background-color: #e6e6e6; */
-    /* background-color: #b3b3b3; */
-    /* background-color: #d9c3bf; */
-    /* background-color: #ebe2e0; */
+  /* background-color: #e6e6e6; */
+  /* background-color: #b3b3b3; */
+  /* background-color: #d9c3bf; */
+  /* background-color: #ebe2e0; */
 
-    background-color: #e2d2cf;
-    /* background-color: #D4C3B9; */
+  background-color: #e2d2cf;
+  /* background-color: #D4C3B9; */
 
-    /* background-color: #D8C0B8; */
-   
+  /* background-color: #D8C0B8; */
+
+  margin: 0;
+  padding: 0;
   }  
 
 
