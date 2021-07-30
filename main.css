@@ -150,6 +150,16 @@ body {
   left: 221px;
 }
 
+.pirate {
+  width: 274px;
+  height: 143px;
+  
+}
+
+.project-text {
+  font-size: 34px;
+}
+
 .test2 {
   background-color: rgb(134, 143, 140);
   width: 333px;
