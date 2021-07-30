@@ -125,7 +125,7 @@ body {
 .projects {
   text-align: center;
   background-color: #e6e6e6;
-  padding: 466px;
+  padding: 500px;
   position: relative;
   bottom: 200px;
 }
@@ -141,10 +141,10 @@ body {
   align-items: center;
 }
 
-.test {
+.project1 {
   background-color: rgb(134, 143, 140);
   width: 333px;
-  height: 320px;
+  height: 364px;
   position: absolute;
   top: 110px;
   left: 221px;
@@ -159,29 +159,29 @@ body {
   font-size: 34px;
 }
 
-.test2 {
+.project2 {
   background-color: rgb(134, 143, 140);
   width: 333px;
-  height: 320px;
+  height: 364px;
   position: absolute;
   top: 110px;
   right: 205px;
 }
 
-.test3 {
+.project3 {
   background-color: rgb(134, 143, 140);
   width: 333px;
-  height: 320px;
+  height: 364px;
   position: absolute;
-  top: 500px;
+  top: 569px;
   left: 221px;
 }
 
-.test4 {
+.project4 {
   background-color: rgb(134, 143, 140);
   width: 333px;
-  height: 320px;
+  height: 364px;
   position: absolute;
-  top: 500px;
+  top: 569px;
   right: 205px;
 }
