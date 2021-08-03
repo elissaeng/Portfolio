@@ -122,7 +122,7 @@ body {
   transform: skew(12deg, 335deg) rotate(308deg);
 }
 
-.projects {
+#projects {
   text-align: center;
   background-color: #e6e6e6;
   padding: 500px;
