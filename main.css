@@ -17,9 +17,10 @@ body {
     /* background-color: #ebe2e0; */
 
   /* background-color: #D8C0B8; */
+    /* background-color: #D8C0B8; */
+   margin: 0;
+   padding: 0;
 
-  margin: 0;
-  padding: 0;
   }  
 
 
@@ -132,6 +133,7 @@ body {
   padding: 500px;
   position: relative;
   bottom: 200px;
+  
 }
 
 .about {
