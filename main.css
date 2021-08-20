@@ -4,25 +4,11 @@ a:-webkit-any-link {
 }
 
 body {
-  /* background-color: #e6e6e6; */
-  /* background-color: #b3b3b3; */
-  /* background-color: #d9c3bf; */
-  /* background-color: #ebe2e0; */
-
   background-color: #e2d2cf;
-  /* background-color: #D4C3B9; */
-    
-    /* background-color: #b3b3b3; */
-    /* background-color: #d9c3bf; */
-    /* background-color: #ebe2e0; */
-
-  /* background-color: #D8C0B8; */
-
   margin: 0;
   padding: 0;
+  
   }  
-
-
 
 .header {
   display: flex;
@@ -30,10 +16,10 @@ body {
   padding: 12px;
   background-color: #e6e6e6;
   box-shadow: 0 0 35px 25px #e2d2cf inset;
+  font-family: 'Heebo', sans-serif;
   /* background-color: #d9c3bf; */
   /* background-color: #ebe2e0; */
 }
-
 
 .nav {
   display: flex;
@@ -88,19 +74,14 @@ body {
   display: flex;
   justify-content: center;
 }
-
-
-/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   
-
 .artist {
   font-family: 'Staatliches', cursive;
   font-size: 400%;
   position: relative;
   bottom: 472px;
   left: -161px;
-  text-shadow: 3px 3px white;
-  
+  text-shadow: 3px 3px white; 
 }
 
 .developer {
@@ -135,7 +116,7 @@ body {
   background-color: #e6e6e6;
   padding: 500px;
   position: relative;
-  bottom: 200px;
+  bottom: 200px; 
 }
 
 .about {
