@@ -39,6 +39,7 @@ body {
 
 .nav-a:hover {
   border-bottom: 2px #fff solid;
+  transform: scale(1.15);
 }
 
 /* @media only screen and (max-width: 12450px) {
