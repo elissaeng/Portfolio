@@ -7,8 +7,7 @@ body {
   background-color: #e2d2cf;
   margin: 0;
   padding: 0;
-  
-  }  
+}  
 
 .header {
   display: flex;
@@ -39,6 +38,7 @@ body {
 
 .nav-a:hover {
   border-bottom: 2px #fff solid;
+  transform: scale(1.15);
 }
 
 /* @media only screen and (max-width: 12450px) {
