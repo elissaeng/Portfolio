@@ -51,6 +51,10 @@ body {
   color: black;
 }
 
+.nav-a:hover {
+  border-bottom: 2px #fff solid;
+}
+
 /* @media only screen and (max-width: 12450px) {
 #painting {
   width: 550px;
