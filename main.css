@@ -64,7 +64,6 @@ body {
     height: 550px;
     position: relative;
     top: 100px;
-
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -174,3 +173,4 @@ body {
   top: 569px;
   right: 205px;
 }
+
