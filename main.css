@@ -27,10 +27,48 @@ html, body {
   overflow: auto;
 }
 
+/* Navbar */
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  /* background-color: #e6e6e6; */
+  /* box-shadow: 0 0 35px 25px #e2d2cf inset; */
+  font-family: 'Heebo', sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h1 {
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+  transform: scale(1.15);
+}
 
 
 
 
+
+/* previous */
 .header {
   display: flex;
   justify-content: space-between;
