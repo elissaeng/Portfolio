@@ -10,6 +10,27 @@ html, body {
   font-family: 'Heebo', sans-serif;
 }  
 
+.main-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.s1 {
+  background-color: #e2d2cf;
+  overflow: auto;
+}
+
+.s2 {
+  background-color: #e6e6e6;
+  overflow: auto;
+}
+
+
+
+
+
 .header {
   display: flex;
   justify-content: space-between;
