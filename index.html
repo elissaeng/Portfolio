@@ -7,86 +7,138 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet"> -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./main.css">
   <script src="./app.js" defer></script>
-  <title>Projects</title>
+  <title>Portfolio</title>
 </head>
 <body>
 
-  <main>
-    <header class="header">
-      <h1>Elissa Eng</h1></a>
-      <nav class="nav">
-        <ul class="nav-ul">
-          <li class="nav-a"><a href="#projects">Projects</a></li>
-          <li class="nav-a"><a href="http://elissaeng.com/" target="_blank">Art</a></li>
-          <li class="nav-a"><a href="./contact.html">Contact</a></li>
-          <!-- <li class="nav-a"><a href="./elissaeng2021.pdf" target="_blank">Resume</a></li> -->
-          <li class="nav-a"><a href="./ElissaEng_Resume2021.pdf" target="_blank">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
+  <!-- Navbar -->
+  <section class="s1">
+    <div class="main-container">
+      <div class="navbar">
+        <h1>Elissa Eng</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="http://elissaeng.com/" target="_blank">Art</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./ElissaEng_Resume2021.pdf" target="_blank">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
 
+  <!-- Showcase -->
+  <section class="s1">
+    <div class="main-container">
+
+      <div class="painting-wrapper">
+        <img id="painting" src="images/portfolio.jpg" alt="painting">
+      </div>
+
+      <!-- <h2 class="artist">Artist</h2>
+      <h2 class="developer">Developer</h2>
+      <img class="brushstroke" src="./images/wide green.png" alt="green brushstroke">
+      <img class="brushstroke-code" src="./images/wide green.png" alt="green brushstroke"> -->
     
-    <div class="outer-container">
-      <div class="inside-container">
-        <img id="painting" src="./images/portfolio.jpg" alt="painting">
-        <h2 class="artist">Artist</h2>
-        <h2 class="developer">Developer</h2>
-        <img class="brushstroke" src="./images/wide green.png" alt="green brushstroke">
-        <img class="brushstroke-code" src="./images/wide green.png" alt="green brushstroke">
-      </div>
     </div>
+  </section>
     
+  <!-- Projects -->
+  <section class="s2">
+    <div class="main-container">
+      <h3 style="text-align: center;">Projects</h3>
+      <div id="projects"></div>
+        <div class="post-wrapper">
 
-    <div id="projects">
-      <!-- <h1>Recent Projects</h1> -->
-      <div class="project1">
-        <h3><a class="project-text" href="http://elissaeng.github.io/racer-game" target="_blank">Pirate Race</a></h3>
-        <img class="project-image"src="./images/pirate.png" alt="pirate ship">
-        <p>A whimsical game for two players in which pirate ships race to the treasure!</p>
-        <p>Technologies Used: HTML5, CSS, JavaScript</p>
+          <div>
+            <a class="project-text" href="http://elissaeng.github.io/racer-game" target="_blank">
+              <div class="post">
+                <img class="thumbnail" src="images/pirate.png">
+                <div class="post-preview">
+                  <h6 class="post-title">Pirate Race</h6>
+                  <p class="post-intro">A whimsical game for two players in which pirate ships race to the treasure! Technologies Used: HTML5, CSS, JavaScript</p>
+                </div>
+              </div>
+            </a>  
+          </div>
+              
+          <div>
+            <a class="project-text" href="https://sportcollector.herokuapp.com/" target="_blank">
+              <div class="post">
+                <img class="thumbnail" src="images/sportCollector.png">
+                <div class="post-preview">
+                  <h6 class="post-title">SportCollector</h6>
+                  <p class="post-intro">A site where sports fans can keep track of their favorite sports, athletes and times/channels of the games the user wants to watch. Technologies Used: Django, CSS, Python, Materialize, HTML5, postgreSQL</p>
+                </div>
+              </div>
+            </a>  
+          </div>
+              
+          <div>
+            <a class="project-text" href="https://morning-gorge-35711.herokuapp.com/" target="_blank">
+              <div class="post">
+                <img class="thumbnail" src="images/lippie.png">
+                <div class="post-preview">
+                  <h6 class="post-title">Lippie</h6>
+                  <p class="post-intro">Fully functional Lipstick E-commerce site. Technologies Used: MongoDB, Node, Express, CSS, HTML5, JavaScript</p>
+                </div>
+              </div>
+            </a>  
+          </div>
+              
+          <div>
+            <a class="project-text" href="https://art--work.herokuapp.com/" target="_blank">
+              <div class="post">
+                <img class="thumbnail" src="images/artWork.png">
+                <div class="post-preview">
+                  <h6 class="post-title">art | work</h6>
+                  <p class="post-intro">A site for artists to network and utilize resources. Technologies Used: Django, Python, CSS, Bootstrap, postgreSQL, HTML5</p>
+                </div>
+              </div>
+            </a>  
+          </div>
+
+        </div>      
       </div>
 
-      <div class="project2">
-        <h3><a class="project-text" href="https://sportcollector.herokuapp.com/" target="_blank">SportCollector</a></h3>
-        <img class="project-image"src="./images/sportCollector.png" alt="sports site">
-        <p>A site where sports fans can keep track of their favorite sports, athletes and times/channels of the games the user wants to watch. </p>
-        <p>Technologies Used: Django, CSS, Python, Materialize, HTML5, postgreSQL</p>
-      </div>
-
-      <div class="project3">
-        <h3><a class="project-text" href="https://morning-gorge-35711.herokuapp.com/" target="_blank">Lippie</a></h3>
-        <img class="project-image"src="./images/lippie.png" alt="lipstick site">
-        <p>Fully functional Lipstick E-commerce site</p>
-        <p>Technologies Used: MongoDB, Node, Express, CSS, HTML5, JavaScript</p>
-      </div>
-
-      <div class="project4">
-        <h3><a class="project-text" href="https://art--work.herokuapp.com/" target="_blank">art | work</a></h3>
-        <img class="project-image" src="./images/artWork.png" alt="networking site">
-        <p>A site for artists to network and utilize resources</p>
-        <p>Technologies Used: Django, Python, CSS, Bootstrap, postgreSQL, HTML5</p>
-      </div>
-      
     </div>
+  </section>
 
-    <div class="about">
-      <h1>About Elissa</h1>
-      <p>I am motivated by taking on challenges and successfully resolving them. My experience as a fine artist has equipped me with a naturally creative mind. I enjoy using imagination along with analytical thinking to find innovative ways to problem solve. Software development empowers me to merge these different ways of thinking in an exciting and robust way. When I'm not in front of a canvas or a computer, you will most certainly find me in the mountains.</p>
+<!-- TBD -->
+  <!-- <section class="s1">
+    <div class="main-container">
+      TBD
     </div>
+  </section> -->
 
-    <!-- <div class="view-all">
-      <h1>View All Art</h1>
-      <h1>View All Software Projects</h1>
-    </div> -->
+<!-- About -->
+  <section class="s2">
+    <div class="main-container">
 
-  </main> 
+      <div class="about-wrapper">
+        <h1>More About Me</h1>
+          <p>I am motivated by taking on challenges and successfully resolving them. My experience as a fine artist has equipped me with a naturally creative mind. I enjoy using imagination along with analytical thinking to find innovative ways to problem solve. Software development empowers me to merge these different ways of thinking in an exciting and robust way. When I'm not in front of a canvas or a computer, you will most certainly find me in the mountains.</p>
+      </div>
+
+      <div class="about-pics">
+        
+      </div>
+
+    </div>
+  </section>  
+
+
 </body>
 </html>
+    
+
+    
+   
