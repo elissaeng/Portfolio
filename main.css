@@ -16,8 +16,6 @@ body {
   background-color: #e6e6e6;
   box-shadow: 0 0 35px 25px #e2d2cf inset;
   font-family: 'Heebo', sans-serif;
-  /* background-color: #d9c3bf; */
-  /* background-color: #ebe2e0; */
 }
 
 .nav {
@@ -41,24 +39,6 @@ body {
   transform: scale(1.15);
 }
 
-/* @media only screen and (max-width: 12450px) {
-#painting {
-  width: 550px;
-  height: 550px;
-  position: relative;
-  top: 100px;
-  left:  432px;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  /* grid-template-columns: 1fr 4fr;
-  grid-template-rows: 50px auto 30px;
-  grid-template-areas: 
-    "hdr hdr"
-    "side content"
-    "ftr ftr";
-}
-} */ 
-
-/* @media only screen and (min-width: 1024px) { */
   #painting {
     width: 550px;
     height: 550px;
