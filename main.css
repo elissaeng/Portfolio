@@ -48,11 +48,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  font-size: 1.1rem;
 }
 
 h1 {
   line-height: 1.2;
-  margin: 10px 0;
+  margin: 40px 0;
+  font-size: 2.0rem;
 }
 
 .navbar a:hover {
@@ -66,7 +68,13 @@ h1 {
 	grid-template-columns: repeat(auto-fit, 320px);
 	gap: 20px;
 	justify-content: center;
-	padding-bottom: 50px;
+  padding-top: 8px;
+	padding-bottom: 103px;
+}
+
+.project-header {
+  text-align: center;
+  padding-top: 25px;
 }
 
 .post {
