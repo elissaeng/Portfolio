@@ -176,9 +176,33 @@ h1 {
 }
 
 
+/* Media Queries */
+@media (max-width: 1024px) {
+  /* body {
+    display: none;
+  } */
 
+  #painting {
+    width: 500px;
+    height: 500px;
+  }
+}
 
+/* Tablets */
+@media (max-width: 768px) {
+  #painting {
+    width: 450px;
+    height: 450px;
+  }
+}
 
+/* Mobile */
+@media (max-width: 500px) {
+  #painting {
+    width: 350px;
+    height: 350px;
+  }
+}
 
   
 
