@@ -105,17 +105,15 @@ h1 {
 /* Contact */
 .contact {
   display: flex;
-  /* display: flex;
-  justify-content: space-between;
-  padding: 12px; */
 }
 
 .social-links {
-  /* display: flex; */
-  /* justify-content: flex-end;
-  display: flex;
-  justify-content: space-between; */
   padding: 12px 12px 12px 400px;
+}
+
+.social-links a:hover {
+  border-bottom: 2px #fff solid;
+  transform: scale(1.15);
 }
 
 /* Showcase */
