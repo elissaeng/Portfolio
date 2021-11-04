@@ -94,6 +94,12 @@ h1 {
 
 .post-intro {
 	color: #4b5156;
+	font-size: 15px;
+}
+
+.post-tech {
+  font-style: italic;
+  color: #4b5156;
 	font-size: 14px;
 }
 
