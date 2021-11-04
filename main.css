@@ -48,11 +48,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  font-size: 1.1rem;
 }
 
 h1 {
   line-height: 1.2;
   margin: 40px 0;
+  font-size: 2.0rem;
 }
 
 .navbar a:hover {
