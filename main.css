@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  /* padding: 0;
-  margin: 0; */
 }
 
 html, body {
@@ -42,9 +40,7 @@ a {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 12px;
-  /* background-color: #e6e6e6; */
-  /* box-shadow: 0 0 35px 25px #e2d2cf inset; */
+  padding: 12px; 
   font-family: 'Heebo', sans-serif;
 }
 
@@ -128,12 +124,6 @@ h1 {
   width: 550px;
   height: 550px;
 }
-
-/* .outer-container {
-  display: flex;
-  justify-content: center;
-  background-color: #e2d2cf;;
-} */
 
 .artist {
   font-family: 'Staatliches', cursive;
