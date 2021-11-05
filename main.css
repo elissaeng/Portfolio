@@ -196,6 +196,27 @@ h1 {
   }
 }
 
+/* OTHER */
+@media (max-width: 660px) {
+  .navbar {
+    /* height: 110px; */
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .nav {
+    font-size: 1rem;
+    margin-top: -20px;
+    justify-content: center;
+  }
+}
+
 /* Mobile */
 @media (max-width: 500px) {
   #painting {
