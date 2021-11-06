@@ -112,19 +112,6 @@ h1 {
 	font-size: 14px;
 }
 
-/* Contact */
-.contact {
-  display: flex;
-}
-
-.social-links {
-  padding: 12px 12px 12px 400px;
-}
-
-.social-links a:hover {
-  border-bottom: 2px #fff solid;
-  transform: scale(1.15);
-}
 
 /* Showcase */
 .painting-wrapper {
@@ -174,6 +161,47 @@ h1 {
   bottom: 433px;
   transform: skew(12deg, 335deg) rotate(308deg);
 }
+
+
+/* Contact */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* .contact-thumbnail a:hover {
+  border-bottom: 2px #fff solid;
+  transform: scale(1.15);
+} */
+
+.contact-thumbnail {
+	display: block;
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+  padding: 20px;
+}
+
+.contact-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 0px 38px;
+}
+
+.connect {
+  justify-content: center;
+  padding: 20px 20px 20px 0px;
+}
+
 
 
 /* Media Queries */
