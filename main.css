@@ -177,11 +177,6 @@ h1 {
   justify-content: flex-end;
 }
 
-/* .contact-thumbnail a:hover {
-  border-bottom: 2px #fff solid;
-  transform: scale(1.15);
-} */
-
 .contact-thumbnail {
 	display: block;
 	width: 100%;
@@ -202,7 +197,18 @@ h1 {
   padding: 20px 20px 20px 0px;
 }
 
+.contact-items a:hover {
+  transform: scale(1.15);
+}
 
+.contact-items a:hover:after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 10;
+  border-bottom: 2px #fff solid;
+}
 
 /* Media Queries */
 @media (max-width: 1024px) {
