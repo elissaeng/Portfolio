@@ -210,6 +210,7 @@ h1 {
   border-bottom: 2px #fff solid;
 }
 
+
 /* Media Queries */
 @media (max-width: 1024px) {
   /* body {
@@ -227,6 +228,30 @@ h1 {
   #painting {
     width: 450px;
     height: 450px;
+  }
+
+  .contact-items {
+    margin-right: 69px;
+    margin-bottom: 31px;
+  }
+   
+
+  .contact-thumbnail {
+    width: 75px;
+    height: 75px;
+  }
+
+  .connect {
+    flex-direction: column;
+    font-size: 1.8rem;
+    margin-bottom: -2px;
+    padding-top: 55px;
+  }
+
+  .contact {
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: -20px;
   }
 }
 
