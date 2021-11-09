@@ -30,6 +30,7 @@ html, body {
 ul {
   display: flex;
   list-style: none;
+  padding: 0px;
 }
 
 a {
