@@ -224,6 +224,17 @@ h1 {
   }
 }
 
+@media (max-width: 880px) {
+  .contact {
+    display: grid;
+    justify-content: center;
+  }
+
+  .connect {
+    display: grid;
+  }
+}
+
 /* Tablets */
 @media (max-width: 768px) {
   #painting {
