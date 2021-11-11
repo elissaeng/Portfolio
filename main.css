@@ -243,7 +243,6 @@ h1 {
   }
 
   .contact-items {
-    margin-right: 69px;
     margin-bottom: 31px;
   }
    
@@ -251,6 +250,8 @@ h1 {
   .contact-thumbnail {
     width: 75px;
     height: 75px;
+    display: grid;
+    justify-content: center;
   }
 
   .connect {
@@ -262,8 +263,6 @@ h1 {
 
   .contact {
     flex-direction: column;
-    margin-top: -20px;
-    margin-bottom: -20px;
   }
 }
 
