@@ -71,6 +71,10 @@ h1 {
   transform: scale(1.15);
 }
 
+.nav:hover {
+  transform: scale(1.15);
+}
+
 /* Projects */
 .post-wrapper {
 	display: grid;
