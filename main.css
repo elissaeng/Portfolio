@@ -226,14 +226,15 @@ h1 {
 
 .about-column {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  margin-bottom: 37px;
 }
 
 .about-pics {
   /* padding-bottom: 33px; */
   border-radius: 50%;
-  width: 60%;
-  height: 85%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   justify-self: end;
   margin-right: 37px;
